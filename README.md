@@ -1,4 +1,4 @@
-# Starter-Kit-2018
+# Crypto Project (React)
 
 
 **Steps**
