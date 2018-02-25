@@ -1,0 +1,65 @@
+#results{
+  text-align: center;
+
+  h1{
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    color: #4A089C;
+    margin: 20px auto;
+  }
+
+  h3, h4{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #2E0222;
+    margin: 40px;
+  }
+
+  .ads{
+    background: grey;
+    height: 90px;
+    width:728px;
+    margin: 40px auto;
+  }
+
+  .main-btn{
+    color: #2E0222;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 3px solid #4A089C;
+    margin: 40px auto;
+
+
+
+    &:hover{
+      background: #4A089C;
+      transition: all 0.2s ease-in-out;
+      color:white;
+    }
+
+    &.active{
+      background: #4A089C;
+      color:white;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

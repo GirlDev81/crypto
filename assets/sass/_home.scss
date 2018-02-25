@@ -1,0 +1,72 @@
+#home{
+  .bitcoin-logo{
+    width: 60%;
+  }
+
+  .ads{
+    background: grey;
+    height:280px;
+    width:336px;
+    margin: 40px auto;
+
+  }
+
+  h2{
+    color: #2E0222;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3rem auto;
+    font-weight: 500;
+  }
+  label{
+    display: block;
+    text-transform: capitalize;
+    margin: 20px auto;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 3px solid #4A089C;
+  }
+
+  button{
+    border-radius: 3px;
+    border: 3px solid #4A089C;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    background: orange;
+    color: white;
+    &:hover{
+      background: #4A089C;
+      transition: all 0.2s ease-in-out;
+
+    }
+  }
+
+.react-datepicker-wrapper, .react-datepicker__input-container{
+  width: 100%;
+  input{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

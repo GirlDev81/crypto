@@ -1,0 +1,47 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+@import "variables";
+@import "grid";
+@import "datepicker";
+@import "home";
+@import "results";
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+header{
+  padding: 17px 0;
+  overflow: auto;
+  color: #2E0222;
+
+  .logo{
+    display: inline-block;
+    float:left;
+    }
+  .menu{
+    display: inline-block;
+    float: right;
+
+    a{
+      color: #2E0222;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 3px;
+      border: 3px solid #4A089C;
+
+      &:hover{
+        background: #4A089C;
+        transition: all 0.2s ease-in-out;
+        color:white;
+      }
+
+      &:active{
+        background: #4A089C;
+      }
+    }
+  }
+}
